@@ -1,0 +1,23 @@
+PODS:
+  - BRAFeatureFlagController (0.1.0)
+  - Kiwi (2.2.4):
+    - Kiwi/SenTestingKit
+  - Kiwi/ARC (2.2.4)
+  - Kiwi/NonARC (2.2.4)
+  - Kiwi/SenTestingKit (2.2.4):
+    - Kiwi/ARC
+    - Kiwi/NonARC
+
+DEPENDENCIES:
+  - BRAFeatureFlagController (from `../`)
+  - Kiwi
+
+EXTERNAL SOURCES:
+  BRAFeatureFlagController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BRAFeatureFlagController: fc674b54ac1ebc6e5362c78a0df3baa44485a61f
+  Kiwi: c73667f2b84cbf36f1a3830267c5a4ae8dcbd8ba
+
+COCOAPODS: 0.33.1
