@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1358B28D1937FDBF0069F52F /* BRAFeatureFlagControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A69B151937F3CE00CF760B /* BRAFeatureFlagControllerTests.m */; };
 		13A69AE31937E2FE00CF760B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A69AE21937E2FE00CF760B /* Foundation.framework */; };
 		13A69AE51937E2FE00CF760B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A69AE41937E2FE00CF760B /* CoreGraphics.framework */; };
 		13A69AE71937E2FE00CF760B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A69AE61937E2FE00CF760B /* UIKit.framework */; };
 		13A69AED1937E2FE00CF760B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13A69AEB1937E2FE00CF760B /* InfoPlist.strings */; };
 		13A69AEF1937E2FE00CF760B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A69AEE1937E2FE00CF760B /* main.m */; };
 		13A69AF31937E2FE00CF760B /* BRAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A69AF21937E2FE00CF760B /* BRAAppDelegate.m */; };
-		13A69AF51937E2FE00CF760B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13A69AF41937E2FE00CF760B /* Images.xcassets */; };
 		13A69AFC1937E2FE00CF760B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A69AFB1937E2FE00CF760B /* XCTest.framework */; };
 		13A69AFD1937E2FE00CF760B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A69AE21937E2FE00CF760B /* Foundation.framework */; };
 		13A69AFE1937E2FE00CF760B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A69AE61937E2FE00CF760B /* UIKit.framework */; };
 		13A69B061937E2FE00CF760B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13A69B041937E2FE00CF760B /* InfoPlist.strings */; };
+		13A69B1C1937F77400CF760B /* BRAFeatureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A69B1B1937F77400CF760B /* BRAFeatureTests.m */; };
 		CFA0B73426BC490E855D067E /* libPods-BRAFeatureFlagControllerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E66BA3050E4E39B42D1375 /* libPods-BRAFeatureFlagControllerTests.a */; };
 		E0732F9705744C48A60A4BF0 /* libPods-BRAFeatureFlagController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0A6871B7264D2C8182A1C0 /* libPods-BRAFeatureFlagController.a */; };
 /* End PBXBuildFile section */
@@ -43,11 +44,12 @@
 		13A69AF01937E2FE00CF760B /* BRAFeatureFlagController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BRAFeatureFlagController-Prefix.pch"; sourceTree = "<group>"; };
 		13A69AF11937E2FE00CF760B /* BRAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRAAppDelegate.h; sourceTree = "<group>"; };
 		13A69AF21937E2FE00CF760B /* BRAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRAAppDelegate.m; sourceTree = "<group>"; };
-		13A69AF41937E2FE00CF760B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		13A69AFA1937E2FE00CF760B /* BRAFeatureFlagControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BRAFeatureFlagControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13A69AFA1937E2FE00CF760B /* BRAFeatureFlagControllerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BRAFeatureFlagControllerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13A69AFB1937E2FE00CF760B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		13A69B031937E2FE00CF760B /* BRAFeatureFlagControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BRAFeatureFlagControllerTests-Info.plist"; sourceTree = "<group>"; };
 		13A69B051937E2FE00CF760B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		13A69B151937F3CE00CF760B /* BRAFeatureFlagControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRAFeatureFlagControllerTests.m; sourceTree = "<group>"; };
+		13A69B1B1937F77400CF760B /* BRAFeatureTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRAFeatureTests.m; sourceTree = "<group>"; };
 		69E66BA3050E4E39B42D1375 /* libPods-BRAFeatureFlagControllerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BRAFeatureFlagControllerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EBA8A9B5DA649DF9BE621DE /* Pods-BRAFeatureFlagController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BRAFeatureFlagController.xcconfig"; path = "Pods/Pods-BRAFeatureFlagController.xcconfig"; sourceTree = "<group>"; };
 		7A0A6871B7264D2C8182A1C0 /* libPods-BRAFeatureFlagController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BRAFeatureFlagController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				13A69ADF1937E2FE00CF760B /* BRAFeatureFlagController.app */,
-				13A69AFA1937E2FE00CF760B /* BRAFeatureFlagControllerTests.xctest */,
+				13A69AFA1937E2FE00CF760B /* BRAFeatureFlagControllerTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,7 +121,6 @@
 			children = (
 				13A69AF11937E2FE00CF760B /* BRAAppDelegate.h */,
 				13A69AF21937E2FE00CF760B /* BRAAppDelegate.m */,
-				13A69AF41937E2FE00CF760B /* Images.xcassets */,
 				13A69AE91937E2FE00CF760B /* Supporting Files */,
 			);
 			path = BRAFeatureFlagController;
@@ -140,6 +141,8 @@
 			isa = PBXGroup;
 			children = (
 				13A69B021937E2FE00CF760B /* Supporting Files */,
+				13A69B151937F3CE00CF760B /* BRAFeatureFlagControllerTests.m */,
+				13A69B1B1937F77400CF760B /* BRAFeatureTests.m */,
 			);
 			path = BRAFeatureFlagControllerTests;
 			sourceTree = "<group>";
@@ -192,7 +195,7 @@
 			);
 			name = BRAFeatureFlagControllerTests;
 			productName = BRAFeatureFlagControllerTests;
-			productReference = 13A69AFA1937E2FE00CF760B /* BRAFeatureFlagControllerTests.xctest */;
+			productReference = 13A69AFA1937E2FE00CF760B /* BRAFeatureFlagControllerTests.octest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -234,7 +237,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				13A69AED1937E2FE00CF760B /* InfoPlist.strings in Resources */,
-				13A69AF51937E2FE00CF760B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +327,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1358B28D1937FDBF0069F52F /* BRAFeatureFlagControllerTests.m in Sources */,
+				13A69B1C1937F77400CF760B /* BRAFeatureTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,7 +481,7 @@
 				INFOPLIST_FILE = "BRAFeatureFlagControllerTests/BRAFeatureFlagControllerTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
@@ -496,7 +500,7 @@
 				INFOPLIST_FILE = "BRAFeatureFlagControllerTests/BRAFeatureFlagControllerTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
