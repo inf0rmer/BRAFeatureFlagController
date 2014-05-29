@@ -1,5 +1,6 @@
 PODS:
-  - BRAFeatureFlagController (0.1.0)
+  - BRAFeatureFlagController (0.1.0):
+    - ObjectiveSugar
   - Kiwi (2.2.4):
     - Kiwi/SenTestingKit
   - Kiwi/ARC (2.2.4)
@@ -7,6 +8,7 @@ PODS:
   - Kiwi/SenTestingKit (2.2.4):
     - Kiwi/ARC
     - Kiwi/NonARC
+  - ObjectiveSugar (1.1.0)
 
 DEPENDENCIES:
   - BRAFeatureFlagController (from `../`)
@@ -17,7 +19,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  BRAFeatureFlagController: fc674b54ac1ebc6e5362c78a0df3baa44485a61f
+  BRAFeatureFlagController: bf07aeff16af4849ecec1661479e61e27cee473a
   Kiwi: c73667f2b84cbf36f1a3830267c5a4ae8dcbd8ba
+  ObjectiveSugar: f48793f5902c77cfc02a4ce46d2e8ecddcad4dc2
 
 COCOAPODS: 0.33.1
